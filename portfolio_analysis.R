@@ -22,6 +22,7 @@ library(GGally)
 # Missing Coins XMR, Dash
 # Interval should start at 2015
 # Interval should end at July 2022 - recent crypto winter
+# Need to covert cryptocurrencies to BRL
 # Neto and Colombo use: BTC, ETH,XRP, USDT, LTC, XLM, XMR, DASH >>>> 3 groups
           # BTC
           # Altcoin:  ETH,XRP, LTC, XLM, XMR, DASH
