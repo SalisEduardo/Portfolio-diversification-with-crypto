@@ -1753,6 +1753,27 @@ allocation (De Miguel et. al, 2009)</p>
 </div>
 <div id="covariance-matrix-estimation" class="section level3">
 <h3><strong>1.3 Covariance matrix estimation</strong></h3>
+<p>One of the most used methods to measure risk in the portfolio
+optimization process is the covariance matrix. Combined with the
+estimation of returns, it can cause a large impact on computing optimal
+weights by allocating a higher stake on securities with over estimated
+returns and underestimated risk or the opposite or by placing a minor
+part of the wealth on securities with under estimated expected returns
+and over estimated risks (Kolm, Tütüncü , Fabozzi, 2014). Those errors
+occur specially with standard estimator that is the sample covariance
+matrix. Thereby alternatives like shrinkage methods, factor models or by
+time-varying estimators such as Generalized Autoregressive Conditional
+Heteroskedasticity (“GARCH”) or Exponentially Weighted Moving Average
+(“EWMA”) models, are candidates to decrease the errors and thus enhance
+the performance.</p>
+<p>Himbert, Kapraun and Rudolf (2017), focusing on the Minimum Variance
+Portfolio (that is not affected by returns estimation), found that EWMA
+and DDC-GARCH can improve covariance forecast and performance (specially
+for portfolios of higher dimension) in random built portfolio of stocks
+from US and Europe. Extending their analysis to Smart beta’s portfolio
+and increasing the number of allocation strategies, the authors also
+identified superior results for those estimators, but only for the
+Minimum Variance strategy.</p>
 </div>
 </div>
 
