@@ -7,10 +7,7 @@ output:
     df_print: paged
 ---
 
-
-##  **1. Literature Review**
-
-###  **1.1 Crypto Assets investing**
+## **1. Introduction**
 
 In October 2008, Satoshi Nakamoto, an anonymous programmer, published the white paper of Bitcoin white paper, event that marks the genesis of the cryptocurrencies world.  This idea would only come to life after its release in January 3rd of 2009 , when the first unity was mined and the network launched. The purpose behind its creation was that people could transfer value digitally without any central intermediary, that only could be possible by the concept of blockchain, an immutable and decentralized database  (or a distributed ledger). Since than, Bitcoin still is the largest crypto by market capitalization, followed by more than 6000 new crypto currencies according to CoinMarkeCap. Over the last decade, that field evolved beyond its original concept of "a peer-to-peer electronic cash system" (*Nakamoto, 2008*) and became a gigantic market of more than 1 trillion dollars that started to be seen no only as a technological feature, but rather as an investment opportunity, leading to the emergence of a new asset class denominated as **Cryptoassets**.
 
@@ -18,21 +15,30 @@ According to *FINMA (qtd. in  Lieb,2022)*, Cryptoassets are one of the two subgr
  
 Through  euphoria and despair,  massive bullmarkets and bear markets, and any other kind of phase characteristic of a disruptive technology, those assets reached a critical  level of proportion that indicates that they are not any passing fad. As a new asset class with its unique characteristics, they not only attracted tech enthusiasts, but also the so called "smart money", composed of large investments institutions as hedge funds, endowments and renowned traders (*Houghan and Lawant, 2021*); representing a paradigm shift from its original conception as a speculative asset only. Despite that relevance, investors have a significant amount of challenges around that market that may include: lack of quality in information, small track record of trading, early stage financial theory, occurrence of scams and malicious actors, uncertainties about regulation/taxation across regions, technical and competitive risks, etc.   
 
+##  **2. Literature Review**
+
+###  **2.1 Crypto Assets investing**
+
+
+
 Regardless of its current size and stage of consolidation mentioned before, cryptocurrencies have been one of the focus of  the financial literature, which have been attempting to understand many questions like the the risks and benefits of investing in these alternative assets, their potential effects of diversification in portfolios, specific volatility models, trading techniques, their classification, their correlated classes, etc. Even with this relevance, the scope of many researches are still limited, either by focusing specifically on the reality of investors from developed countries, such as the United States and Europe, or by  only adopting Bitcoin (digital currency with the highest market capitalization) as a the crypto's representative. Also, with the rapid changes that happens in the macro scenario, many of those studies tend to be outdated. 
 
-Kajtazi and Moro (2018), employing the mean-CVaR approach,  found evidences that bitcoin generated benefit for the majority of portfolios analysed across different regions (USA, Europe, China), with increases in returns compensating the increases in risk (Sharpe , Omega and Sortino rations showing overall improvements). However, *the period after 2017 was not included (!!!!)*. In similar studies, Platanakis and Urquhart (2020), employing data util june 2018, analyzed under different criteria (time windows, transaction costs, risk aversion values, robust portfolio construction techniques,constrains) the effects does holding Bitcoin have on a portfolio containing stocks and bonds (in the absence or presence of commodities), also finding out-of-sample positive results. 
+In similar studies, Platanakis and Urquhart (2020), using weekly data collected from October 2011 to June 2018 ,concluded that Bitcoin provides higher risk-adjusted returns when added to portfolio composed of stocks (S&P500) and bonds (Barclays US Aggregare). Those results were consistent across different portfolio construction techniques, levels of risk aversion,time windows, transaction costs,constrains. The authors also stated that Bitcoin adds more value to the original portfolio than commodities investments.
+
+Kajtazi and Moro (2018) considered a mean-CVaR (Conditional Value-at-Risk) approach for portfolio construction to evaluate the impacts of the inclusion of Bitcoin in a portfolio composed by  equities, fixed income, real state, cash equivalents, currencies, and alternative investments. Using data from USA, Europe and China, for the period from 2012 to 2017, the authors found that the inclusion of Bitcoin is able to provide better investment strategies in terms of risk and return, in terms of higher Sharpe, Omega and Sortino ratios. 
+
 
 Examining the conditional cross effects and volatility spillover between Bitcoin and a batch of other financial assets usingtime series volatility models, Guesmi et al. (2018) also reach conclusions favorable to the use of Bitcoin in investment portfolios. The authors report that the currency can act as a hedge and bring diversification benefits to the traditional assets of the portfolio. When combined with other hedge instruments like gold, oil and emerging markets stocks , Bitcoin reduced the overall risk and compared to the portfolio without the cryptocurrency 
 
 For the Brazilian market, Colombo and Neto (2021) investigate the impact of adding a crypto baskets in a portfolio covering different classes of investment. The results indicated that the inclusion of digital currencies improved the performance metrics of the portfolios, even for different allocation methodologies and time windows of analysis. Similarly, Colombo et al (2020) finds that both global and emerging countries (including Brazil) investors can benefit from the inclusion of cryptocurrencies in portfolios composed of stocks, bonds, commodities and real estate.
 
-###  **1.2 Modern Portfolio Theory**
+###  **2.2 Modern Portfolio Theory**
 
 For many studies that try address the outcome of crypto diversification, Modern Portfolio Theory (MPT), also known as mean-variance analysis, arises as an important background. Developed by Harry M. Markowitz in 1952, that theory provides an important framework to allocate wealth across possible investment choices through the optimization between maximizing returns wile minimizing risk , presumed as as variance (Elton and Gruber , 1997). One of its most important contributions hold on pioneering idea of quantifying diversification by considering the portfolio's risk based on the relationship between its constituents (correlation) and not only on the average riskiness of its positions (Kolm, Tütüncü , Fabozzi, 2014).
 
 When it comes to its practical usage, MPT is pointed to possess some issues. One reason for this is  the difficulty to consider some of its  assumptions, like "Investors rationality", "Efficient Markets", "Perfect information", and others, entirely true (Mangran, 2013). Another reason is the out-of-box unreliability of the portfolio performance, since the risk-return optimization can be very sensitive to chances in the inputs (Kolm, Tütüncü , Fabozzi, 2014). Lastly , errors caused by the estimators (covariance matrix and expected returns) or by the optimization process can damage the performance when compered to naive allocation (De Miguel et. al, 2009)
 
-###  **1.3 Covariance matrix estimation**
+###  **2.3 Covariance matrix estimation**
 
 One of the most used methods to measure risk in the portfolio optimization process is the covariance matrix. Combined with the estimation of returns, it can cause a large impact on computing optimal weights by allocating a higher stake on securities with over estimated returns and underestimated risk or the opposite or by placing a minor part of the wealth on securities with under estimated expected returns and over estimated risks (Kolm, Tütüncü , Fabozzi, 2014). Those errors occur specially with standard estimator that is the sample covariance matrix. Thereby alternatives like shrinkage methods, factor models  or by time-varying estimators such as  Generalized Autoregressive Conditional Heteroskedasticity ("GARCH") or Exponentially Weighted Moving Average ("EWMA") models, are candidates to decrease the errors and thus enhance the performance.
 
